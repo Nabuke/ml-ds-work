@@ -1,0 +1,6 @@
+*checkpoint
+*180903
+*.jpg
+*.png
+*.csv
+

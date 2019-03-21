@@ -1,0 +1,23 @@
+id,stock_tiker,stock_name,stocks_in_lot,exchange_name
+0,AFLT,Аэрофлот ао,100,moscow
+1,AKRN,Акрон ао,1,moscow
+2,CHMF,Северсталь ао,10,moscow
+3,GMKN,ГМК Норникель ао,1,moscow
+4,MAGN,ММК ао,100,moscow
+5,MGNT,Магнит ао,1,moscow
+6,MTSS,МТС ао,10,moscow
+7,NLMK,НЛМК ао,10,moscow
+8,RASP,Распадская ао,10,moscow
+9,SBERP,Сбербанк ап,10,moscow
+10,SIBN,Газпромнефть ао,10,moscow
+11,SNGSP,Сургутнефтегаз ап,100,moscow
+12,SVAV,Соллерс ао,10,moscow
+13,TATN,Татнефть ао,10,moscow
+14,TATNP,Татнефть ап,10,moscow
+15,VSMO,ВСМПО-Ависма ао,1,moscow
+16,GAZP,Газпром ао,10,moscow
+17,SBER,Сбербанк ао,10,moscow
+18,ROSN,Роснефть ао,10,moscow
+19,SNGS,Сургутнефтегаз ао,100,moscow
+20,LKOH,Лукойл ао,1,moscow
+21,RTKM,Ростелеком ао,10,moscow
