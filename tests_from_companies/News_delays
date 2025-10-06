@@ -1,0 +1,24 @@
+--News_delays
+
+select * 
+from research.mms_context_events
+limit 100
+
+with
+row_with_toxic as 
+(select date as date_
+ , response_time - request_time as total_delay
+ , request_time - last_modification as last_modif_diff
+ , delay as program_delay
+ , uuid
+ , REPLACE(REPLACE(SUBSTR(tm_me_data,28, 5),',',''), '"', '') AS toxicity_avg
+from research.mms_context_events
+where date = '2022-05-03'
+limit 100
+)
+
+select toFloat32(case when toxicity_avg != '' then toxicity_avg else null end) as toxicity
+, count(*) as cnt_deal
+from row_with_toxic
+group by toxicity
+order by cnt_deal desc
